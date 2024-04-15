@@ -1,9 +1,11 @@
 <html>
     <header>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
     </header>
-    <body>
-        <p>Create a reminder on the calendar!</p>
-            <form method="POST" id="remindForm">
+    <body id="reminderMain">
+    <div class="container" id="remindForm">
+        <p id="formLabel">Create a reminder on the calendar!</p>
+            <form method="POST">
                 <label for="months">Set The Month For The Reminder:</label><br>
                     <select name="months" id="months">
                         <option value="January">January</option>
@@ -59,5 +61,6 @@
                     <input type="text" id="name"><br><br>
                 <input type="submit" value="Create Reminder">
             </form> 
+        </div>
     </body>
 </html>

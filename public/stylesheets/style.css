@@ -79,3 +79,39 @@ body {
   color: #777;
   border-radius: 15px;
 }
+#remindForm{
+  width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #777;
+    padding: 15px;
+    border-radius: 15px;
+}
+#links{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#links ul {
+  margin: 0;
+  padding: 0;
+}
+#links li {
+  float: left;
+}
+#links li a {
+  display: block;
+  text-align: center;
+  padding: 10px 12px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: #777  ;
+}
+#reminderMain{
+  background-color: #b3b3b3;
+}
+#formLabel{
+  font-size: 20px;
+}

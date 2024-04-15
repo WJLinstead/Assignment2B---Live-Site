@@ -4,8 +4,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', async (req, res, next) => {
-  let reminderList = await reminder.find().sort([["dueDate", "descending"]]);
-  res.render('calendar', { title: 'Calendar', dataset: reminderList });
+
+  res.render('calendar', { title: 'Calendar'});
 });
 router.get('/reminder', function(req, res, next) {
   res.render('reminder', { title: 'Create a Reminder' });
